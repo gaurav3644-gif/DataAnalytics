@@ -1,0 +1,29 @@
+{
+  "models": [
+    {
+      "title": "Gemini 3.5 Flash Lite",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "apiKey": "YOUR_GEMINI_API_KEY"
+    },
+    {
+      "title": "Gemini 3 Flash",
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "apiKey": "AIzaSyDG9N90JY--1_veG2H8nRHYrH4q8Vz5NqI",
+      "contextLength": 1048576
+    },
+    {
+      "title": "Gemini 3.1 Flash Lite",
+      "provider": "gemini",
+      "model": "gemini-3.1-flash-lite-preview",
+      "apiKey": "AIzaSyDG9N90JY--1_veG2H8nRHYrH4q8Vz5NqI",
+      "contextLength": 1048576
+    }
+  ],
+  "tabAutocompleteModel": {
+    "title": "Qwen 1.5B (Local Autocomplete)",
+    "provider": "ollama",
+    "model": "qwen2.5-coder:1.5b"
+  }
+}

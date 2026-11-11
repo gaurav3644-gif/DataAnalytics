@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" width="520" height="140">
+  <defs>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2D6A4F"/>
+      <stop offset="45%" stop-color="#40916C"/>
+      <stop offset="100%" stop-color="#7CB518"/>
+    </linearGradient>
+  </defs>
+  <text
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="108"
+    font-weight="800"
+    fill="url(#greenGrad)"
+    x="10"
+    y="112"
+    letter-spacing="-2">PiTensor</text>
+</svg>
