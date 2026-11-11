@@ -42,3 +42,14 @@ node server.js
 4. Open `http://127.0.0.1:8000` in your browser.
 
 If the OpenAI request fails, the app falls back to local heuristic insights so the UI still works.
+
+## Docker deployment
+
+The service can build from the repository-root `Dockerfile.txt`:
+
+```powershell
+docker build -f Dockerfile.txt -t pitensor .
+docker run --rm -p 8000:8000 pitensor
+```
+
+The container listens on `0.0.0.0` and uses port `8000` by default. Hosting services can override `PORT` as needed.

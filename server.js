@@ -282,7 +282,8 @@ const server = http.createServer(async (req, res) => {
 });
 
 const port = Number.parseInt(process.env.PORT || '8000', 10);
-server.listen(port, '127.0.0.1', () => {
-  console.log(`PiTensor server running at http://127.0.0.1:${port}`);
+const host = process.env.HOST || '127.0.0.1';
+server.listen(port, host, () => {
+  console.log(`PiTensor server running at http://${host}:${port}`);
   console.log(`Using OpenAI model: ${DEFAULT_MODEL}`);
 });
